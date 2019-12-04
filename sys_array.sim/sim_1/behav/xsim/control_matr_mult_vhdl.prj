@@ -1,0 +1,16 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../sys_array.srcs/sources_1/new/MACC_to_register.vhd" \
+"../../../../sys_array.srcs/sources_1/new/controller.vhd" \
+"../../../../sys_array.srcs/sources_1/new/delayControl.vhd" \
+"../../../../sys_array.srcs/sources_1/new/delay_1.vhd" \
+"../../../../sys_array.srcs/sources_1/new/delay_2.vhd" \
+"../../../../sys_array.srcs/sources_1/new/delay_3.vhd" \
+"../../../../sys_array.srcs/sources_1/new/delay_4.vhd" \
+"../../../../sys_array.srcs/sources_1/new/delay_5.vhd" \
+"../../../../sys_array.srcs/sources_1/new/my_register.vhd" \
+"../../../../sys_array.srcs/sources_1/new/processing_elementTL.vhd" \
+"../../../../sys_array.srcs/sources_1/new/control_matr_mult.vhd" \
+
+# Do not sort compile order
+nosort
